@@ -1,5 +1,9 @@
 {
     "require": {
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "zendframework/zend-loader": "2.3.3",
+        "zendframework/zend-validator": "2.3.3",
+        "zendframework/zend-filter": "2.3.3",
+        "zendframework/zend-mail": "2.3.3"
     }
 }
