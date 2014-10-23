@@ -1,0 +1,14 @@
+.classpath
+.project
+bin/
+.settings/
+
+# Netbeans project
+nbproject/
+
+# Vendor directory for slim framework
+vendor/
+
+# Package Files #
+*.phar
+*.lock
