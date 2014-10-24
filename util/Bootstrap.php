@@ -1,6 +1,6 @@
 <?php
 
-namespace Bootstrap;
+namespace Util;
 
 use Slim\Slim;
 use Zend\Loader\ClassMapAutoloader;

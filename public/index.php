@@ -17,11 +17,11 @@ $pages = include BASE_DIR . '/config/page.php';
 // Getting Slim and autoload from vendor
 require BASE_DIR . '/vendor/autoload.php';
 require BASE_DIR . '/vendor/slim/slim/Slim/Slim.php';
-require BASE_DIR . '/bootstrap/Bootstrap.php';
+require BASE_DIR . '/util/Bootstrap.php';
 
 use Slim\Slim;
 use Zend\Loader\ClassMapAutoloader;
-use Bootstrap\Bootstrap;
+use Util\Bootstrap;
 
 // Auto registering Slim framework
 Slim::registerAutoloader();
