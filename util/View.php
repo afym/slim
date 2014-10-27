@@ -4,9 +4,21 @@ namespace Util;
 
 use Slim\View as SlimView;
 
+/**
+ * New view class for work with layouts in the view model
+ * @author afym <angel.fym@gmail.com>
+ * @version 1.0
+ */
 class View extends SlimView {
 
+    /**
+     * @var string Layout name
+     */
     private static $layout;
+
+    /**
+     * @var array Layout data
+     */
     private $layoutData;
 
     public function __construct() {
@@ -15,6 +27,10 @@ class View extends SlimView {
         $this->layoutData = array();
     }
 
+    /**
+     * Sets the layout file
+     * @return void
+     */
     public static function setLayout($layout) {
         static::$layout = $layout;
     }

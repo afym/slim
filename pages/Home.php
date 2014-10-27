@@ -2,17 +2,12 @@
 
 namespace Pages;
 
-use Slim\Slim;
+use Util\Page;
 
-class Home {
+class Home extends Page {
+
     public static function getPage() {
-        $app = Slim::getInstance();
-        $app->view->setLayoutParam('title', 'Mi pagina web');
-        $app->render('page.php', array('a' => 1));
+        self::app()->render('home/page.php');
     }
 
-    public static function getPage2($name) {
-        $app = Slim::getInstance();
-        $app->render('page2.php', array('name' => $name));
-    }
 }

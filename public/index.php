@@ -14,6 +14,7 @@ require BASE_DIR . '/vendor/autoload.php';
 require BASE_DIR . '/vendor/slim/slim/Slim/Slim.php';
 require BASE_DIR . '/util/Bootstrap.php';
 require BASE_DIR . '/util/View.php';
+require BASE_DIR . '/util/Page.php';
 
 // Getting configuration files
 $routes = include BASE_DIR . '/config/route.php';
