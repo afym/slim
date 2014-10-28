@@ -1,4 +1,4 @@
-<form action="/post/contacto" method="post">
+<form action="/post/contact" method="post">
     <fieldset>
         <legend>Contactenos</legend>
         <label for="email">
@@ -15,5 +15,6 @@
             
             </textarea>
         </label>
+        <button type="submit" >Enviar</button>
     </fieldset>
 </form>

@@ -7,4 +7,5 @@
 return array(
     array('get', '/', 'Home:getPage'),
     array('get', '/contact', 'Contact:getPage'),
+    array('post', '/post/contact', 'Contact:postContact'),
 );
